@@ -1,0 +1,104 @@
+<div className="base-produto">
+  <div className="produto">
+   <img src={Image01} alt="" />
+    <div className="base-info">
+      <h2>Manteiga Qually Cremosa</h2>
+      <p>R$5,00</p>
+      <BsFillCartPlusFill size={20} style={{margin:10,cursor:"pointer"}}
+      onClick={icon}/>
+  
+    </div>
+  </div>
+</div>
+<div className="base-produto">
+  <div className="produto">
+   <img src={Image02} alt="" />
+    <div className="base-info">
+      <h2>Açucar Cristal 5kg</h2>
+      <p>R$18,00</p>
+      <BsFillCartPlusFill size={20} style={{margin:10,cursor:"pointer"}}
+        onClick={icon}/>
+    </div>
+  </div>
+</div>
+<div className="base-produto">
+  <div className="produto">
+   <img src={Image03} alt="" />
+    <div className="base-info">
+      <h2>Toddynho Chocolate </h2>
+      <p>R$3,00</p>
+      <BsFillCartPlusFill size={20} style={{margin:10,cursor:"pointer"}}
+      onClick={icon}/>
+    </div>
+  </div>
+</div>
+<div className="base-produto">
+  <div className="produto">
+   <img src={Image04} alt="" />
+    <div className="base-info">
+      <h2>Leite itambé - Caixa</h2>
+      <p>R$8,75</p>
+      <BsFillCartPlusFill size={20} style={{margin:10,cursor:"pointer"}}/>
+    </div>
+  </div>
+</div>
+<div className="base-produto">
+  <div className="produto">
+   <img src={Image05} alt="" />
+    <div className="base-info">
+      <h2>Macarrão Parafuso GALO</h2>
+      <p>R$8.85</p>
+      <BsFillCartPlusFill size={20} style={{margin:10,cursor:"pointer"}}/>
+    </div>
+  </div>
+</div>
+<div className="base-produto">
+  <div className="produto">
+   <img src={Image06} alt="" />
+    <div className="base-info">
+      <h2>Arroz tio João 5kg</h2>
+      <p>R$22,00</p>
+      <BsFillCartPlusFill size={20} style={{margin:10,cursor:"pointer"}}/>
+    </div>
+  </div>
+</div>
+<div className="base-produto">
+  <div className="produto">
+   <img src={Image07} alt="" />
+    <div className="base-info">
+      <h2>Feijão Comum Giassi 1kg </h2>
+      <p>R$10,65</p>
+      <BsFillCartPlusFill size={20} style={{margin:10,cursor:"pointer"}}/>
+    </div>
+  </div>
+</div>
+<div className="base-produto">
+  <div className="produto">
+   <img src={Image08} alt="" />
+    <div className="base-info">
+      <h2>Ovo Cartela 30unidades</h2>
+      <p>R$22,00</p>
+      <BsFillCartPlusFill size={20} style={{margin:10,cursor:"pointer"}}/>
+    </div>
+  </div>
+</div>
+<div className="base-produto">
+  <div className="produto">
+   <img src={Image09} alt="" />
+    <div className="base-info">
+      <h2>Óleo Soya - óleo de soja</h2>
+      <p>R$12,00</p>
+      <BsFillCartPlusFill size={20} style={{margin:10,cursor:"pointer"}}/>
+    </div>
+  </div>
+</div>
+<div className="base-produto">
+  <div className="produto">
+   <img src={Image10} alt="" />
+    <div className="base-info">
+      <h2>Carne Fraldinha 1kg</h2>
+      <p>R$35,00</p>
+      <BsFillCartPlusFill size={20} style={{margin:10,cursor:"pointer"}}/>
+    </div>
+  </div>
+</div>

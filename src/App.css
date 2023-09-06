@@ -1,0 +1,150 @@
+.cabeçalho{
+  background-color: tomato;
+  padding: 5px;
+  display: flex;
+}
+body{
+  margin: 0px;
+}
+h1{
+text-indent: 10px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-size: 40px;
+line-height: 0%;
+color: white;
+}
+.topo{
+  margin: auto;
+  display: flex;
+}
+.base-produto{
+  width: 290px;
+  margin: 22px;
+  background-color: rgb(245, 208, 208);
+}
+.base-info{
+  background-color:tomato;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.esp-produto{
+  display: flex;
+  flex-wrap: wrap;
+}
+h2{
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  line-height: 0%;
+  padding: 5px;
+  font-size: 20px;
+  text-indent: 18px;
+}
+p{
+  text-indent: 10px;
+  font-size: 20px;
+line-height: 0%;
+  font-family:Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  color: white;
+}
+
+  .item-loja{
+    width: 290px;
+    padding: 4px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    border-radius: 20px 0px 0px 20px;
+    border: 2px solid rgb(196, 58, 34);
+    border-right: 0px;
+    right: 0%;
+    top: 10%;
+  }
+  .item-loja-ativo{
+    padding: 2px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid rgb(196, 58, 34);
+    border-right: 0px;
+   margin-bottom: 10px;
+  }
+  .item-loja-desativo{
+    display: none;
+  }
+  .item-img{
+    width: 50px;
+    margin: 10px;
+  }
+  .item-titulo{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: black;
+    text-align: justify;
+  }
+  .preço{
+    font-weight: bolder;
+    font-size: 20px;
+    color: tomato;
+  }
+
+  .base-carrinho{
+    width: 300px;
+    background-color: white;
+    position: absolute;
+    top: 20%;
+    left: 0%;
+    padding: 2px;
+    border-radius: 5px;
+    display: none;
+  }
+  .base-carrinho-ativo{
+    overflow-y: scroll;
+    background-color: tomato;
+    position: absolute;
+    top: 10%;
+    left: 0%;
+    border-radius: 5px;
+   padding-bottom: 5px;
+   padding-right: 5px;
+  }
+
+  .total-da-compra{
+    color: black;
+  }
+  .btn-sumir{
+    margin: 10px;
+    background-color: rgb(255, 0, 0);
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  .caixa_carrinho{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1px;
+
+  }
+  .valor-total{
+    padding: 5px;
+ position:absolute;
+ top: 100%;
+    width:350px;
+    background-color: rgb(184, 34, 8);
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+  }
+  .total-de-carrinho{
+padding: 0px;
+    background-color: rgb(110, 214, 110);
+    position: absolute;
+    right: 0%;
+    border-radius: 15px 0px 0px 15px;
+bottom: 0%;
+  }
+  .valor-total-carrinho{
+    text-align: justify;
+    font-weight: bolder;
+ 
+  }
