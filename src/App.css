@@ -18,8 +18,8 @@ color: white;
   display: flex;
 }
 .base-produto{
-  width: 290px;
-  margin: 22px;
+  width: 260px;
+  margin: 20px;
   background-color: rgb(245, 208, 208);
 }
 .base-info{
@@ -36,7 +36,7 @@ h2{
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   line-height: 0%;
   padding: 5px;
-  font-size: 20px;
+  font-size: 18px;
   text-indent: 18px;
 }
 p{
@@ -148,3 +148,6 @@ bottom: 0%;
     font-weight: bolder;
  
   }
+img{
+  width: 260px;
+}
